@@ -7,4 +7,4 @@
 
 - name: Fail if Normal is not in the page content
   fail:
-  when: "'Normal' not in webpage.content"
+  when: "'Production' not in webpage.content"
